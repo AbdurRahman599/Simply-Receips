@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/carne-asada.jpeg"
+            class="img recipe-hero-img"
+            alt="Carne Asada"
+          />
+          <article class="recipe-info">
+            <h2>Carne Asada</h2>
+            <p>
+              Marinated flank or skirt steak is grilled to perfection for the best Authentic Carne Asada recipe. This tender, grilled meat is full of authentic Mexican flavor. Marinated flank steak is grilled to perfection for the best Authentic Carne Asada recipe.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>120 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>20 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="beef.html">beef</a>
+              <a href="breakfast.html">breakfast</a>
+              <a href="carrot.html">carrots</a>
+              <a href="food.html">food</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                In a gallon size resealable bag, combine lime juice, crushed garlic, orange juice, cilantro, salt, pepper, vegetable oil, jalapeno, and vinegar. Squeeze it around to mix it up.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+               Put the entire flank steak into the resealable bag. Seal it up tight. Make sure all the meat is exposed to the marinade, squishing the bag around to coat. Refrigerate for at least 2 hours, or overnight.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Heat an outdoor grill to high heat.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>
+                Remove the flank steak from the marinade, and discard excess marinade. Cook on the grill for 7 to 10 minutes per side.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 5</p>
+                <div></div>
+              </header>
+              <p>
+               Once done, remove from heat and let rest 10 minutes. Slice against the grain, and serve.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">2 limes juiced</p>
+              <p class="single-ingredient">4 cloves garlic crushed</p>
+              <p class="single-ingredient">1/2 cup orange juice</p>
+              <p class="single-ingredient">1 cup chopped fresh cilantro</p>
+              <p class="single-ingredient">1/2 teaspoon salt</p>
+              <p class="single-ingredient">1/4 teaspoon black pepper</p>
+              <p class="single-ingredient">1/4 cup vegetable oil</p>
+              <p class="single-ingredient">1 jalapeno minced</p>
+              <p class="single-ingredient">2 tablespoons white vinegar</p>
+              <p class="single-ingredient">2 pounds flank or skirt steak</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipes</span> Built by
+        <span class="footer-logo">Team Alpha</span>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
