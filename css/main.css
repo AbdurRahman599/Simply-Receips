@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap');
 html {
   font-size: 100%;
-} /*16px*/
+} 
 
 :root {
   /* colors */
@@ -254,11 +254,7 @@ ul {
   margin-top: -1rem;
 }
 
-/*
-=============== 
-Navbar
-===============
-*/
+/* =============== Navbar =============== */
 
 .navbar {
   display: flex;
@@ -353,11 +349,7 @@ Navbar
     margin-left: auto;
   }
 }
-/*
-=============== 
-Page
-===============
-*/
+/* =============== Page =============== */
 
 .page {
   width: 90vw;
@@ -368,11 +360,7 @@ Page
   padding-top: 2rem;
   min-height: calc(100vh - (6rem + 4rem));
 }
-/*
-=============== 
-Footer
-===============
-*/
+/* =============== Footer =============== */
 
 .page-footer {
   text-align: center;
@@ -394,11 +382,7 @@ Footer
 .page-footer a {
   color: var(--primary-500);
 }
-/*
-=============== 
-Hero
-===============
-*/
+/* =============== Hero =============== */
 
 .hero {
   height: 40vh;
@@ -431,11 +415,7 @@ Hero
   }
 }
 
-/*
-=============== 
-Recipes 
-===============
-*/
+/* =============== Recipes =============== */
 
 .recipes-container {
   display: grid;
@@ -531,11 +511,7 @@ Recipes
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-/*
-=============== 
-Error
-===============
-*/
+/* =============== Error =============== */
 .error-page {
   text-align: center;
   padding-top: 5rem;
@@ -543,11 +519,7 @@ Error
 .error-page h1 {
   font-size: 9rem;
 }
-/*
-=============== 
-About Page
-===============
-*/
+/* =============== About Page =============== */
 
 .about-page h2 {
   text-transform: none;
@@ -577,11 +549,7 @@ About Page
 .featured-title {
   text-align: center;
 }
-/*
-=============== 
-Contact Page
-===============
-*/
+/* =============== Contact Page =============== */
 .contact-form {
   width: 100%;
   margin: 0;
@@ -598,11 +566,7 @@ Contact Page
   }
 }
 
-/*
-=============== 
-Tags Page
-===============
-*/
+/* =============== Tags Page =============== */
 
 .tags-wrapper {
   display: grid;
@@ -638,11 +602,7 @@ Tags Page
   }
 }
 
-/*
-=============== 
-Recipe Template
-===============
-*/
+/* =============== Recipe Template =============== */
 
 .recipe-hero {
   display: grid;
